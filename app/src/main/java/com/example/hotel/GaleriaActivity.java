@@ -89,6 +89,7 @@ public class GaleriaActivity extends AppCompatActivity implements View.OnClickLi
                 alertDialog=builder.create();
                 alertDialog.show();
                 break;
+                //dsadasda//
         
             case R.id.foto7:
                 foto.setImageResource(R.drawable.ic_foto7);
