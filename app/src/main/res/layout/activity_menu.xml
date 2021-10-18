@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_foto3" />
+
+        <LinearLayout
+        android:layout_marginTop="-80dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnHabitaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/btnmenu"
+            android:elevation="10dp"
+            android:text="HABITACIONES"
+            android:textColor="@color/colorBlanco"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnUbicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnmenu"
+                android:elevation="10dp"
+                android:text="UBICACION"
+                android:textColor="@color/colorBlanco"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnReservas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/btnmenu"
+                android:elevation="10dp"
+                android:text="RESERVAS"
+                android:textColor="@color/colorBlanco"
+                android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_weight="1"
+                    android:id="@+id/btnNosotros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/btnmenu"
+                    android:elevation="10dp"
+                    android:text="NOSOTROS"
+                    android:textColor="@color/colorBlanco"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_weight="1"
+                    android:id="@+id/btnGaleria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/btnmenu"
+                    android:elevation="10dp"
+                    android:text="GALERIA"
+                    android:textColor="@color/colorBlanco"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
